@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: backend-quality-dashboard-4rld
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-jfjx-tenant/mc-quality-dashboard/backend-quality-dashboard-4rld@sha256:a94c57f7ac6c0d4ca9a8654239b693200fd542d2ef1660919f1e8a4653a39395
         imagePullPolicy: Always
         name: container-image
         ports:
